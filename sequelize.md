@@ -1,7 +1,7 @@
 # Migrations
 
 ## Creating Migrations
-```node_modules/.bin/sequelize migrations:generate --name migration-name```
+```node_modules/.bin/sequelize migration:generate --name migration-name```
 
 ## Running All Pending Migrations
 ```node_modules/.bin/sequelize db:migrate```
