@@ -1,3 +1,11 @@
+# Migrations
+
+## Creating Migrations
+```node_modules/.bin/sequelize migrations:generate --name migration-name```
+
+## Running All Pending Migrations
+```node_modules/.bin/sequelize db:migrate```
+
 # Seeds
 
 ## Creating Seeds
